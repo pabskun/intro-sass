@@ -1,0 +1,43 @@
+body
+    font-family:  'Lato', sans-serif
+#header-principal
+    display: flex
+    height: 70px
+    font-size: 20px
+    .logo
+        align-items: center
+        background: $gris-oscuro
+        color: $blanco
+        display: flex
+        padding-left: 5%
+        width: calc( 100% - 70px )
+    .menu-movil
+        align-items: center
+        background: $negro
+        display: flex
+        justify-content: center
+        width: 70px
+        a
+            color: $blanco
+            text-decoration: none
+    .menu-expandido
+        display: none
+
+
+@media all and (min-width: $ancho-tablet)
+    #header-principal
+        .logo
+            display: none
+        .menu-movil
+            display: none
+        .menu-expandido
+            align-items: center
+            background: $gris-oscuro
+            display: flex
+            padding-left: 5%
+            width: 100%
+            a
+                color: $blanco
+                margin-right: 4%
+                text-decoration: none
+
