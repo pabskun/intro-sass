@@ -46,6 +46,49 @@ body {
   display: none;
 }
 
+#sct-1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #1db4c5;
+  background: linear-gradient(140deg, #1db4c5 0%, #0d8ba4 100%);
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sct-1 .info {
+  width: 70%;
+}
+
+#sct-1 .info h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+#sct-1 .info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#sct-1 .info div h2 {
+  color: #DADADA;
+  font-size: 25px;
+}
+
+#sct-1 .info div span {
+  font-size: 35px;
+}
+
 @media all and (min-width: 980px) {
   #header-principal .logo {
     display: none;
