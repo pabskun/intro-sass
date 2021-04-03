@@ -105,7 +105,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 25px;
+  font-size: 18px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -163,6 +163,28 @@ body {
   background-size: cover;
 }
 
+#blaz {
+  background: #EBEBEB;
+  padding: 40px;
+}
+
+#blaz h2 {
+  color: #0092A9;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+#blaz p {
+  color: #373C3F;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+#blaz div:nth-child(2) {
+  display: none;
+}
+
 @media all and (min-width: 980px) {
   #header-principal .logo {
     display: none;
@@ -186,6 +208,9 @@ body {
     margin-right: 4%;
     text-decoration: none;
   }
+  #sct-2 div:first-child {
+    font-size: 25px;
+  }
   #galeria {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -193,6 +218,21 @@ body {
   }
   #galeria div {
     width: 100%;
+  }
+  #blaz {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #blaz div {
+    width: 45%;
+  }
+  #blaz div:nth-child(2) {
+    display: block;
+    padding-top: 62px;
   }
 }
 /*# sourceMappingURL=base.css.map */
