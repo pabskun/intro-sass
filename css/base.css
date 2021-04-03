@@ -89,6 +89,80 @@ body {
   font-size: 35px;
 }
 
+#sct-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+}
+
+#sct-2 div:first-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #27222C;
+  color: #90829E;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: calc( 100% - 100px);
+}
+
+#sct-2 div:last-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #BC3182;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+}
+
+#galeria div {
+  height: 500px;
+}
+
+#galeria div img {
+  width: 100%;
+}
+
+#galeria div:first-child {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #5B11A1;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#galeria div:nth-child(2) {
+  background-image: url("../imgs/img2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#galeria div:nth-child(3) {
+  background-image: url("../imgs/img3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
 @media all and (min-width: 980px) {
   #header-principal .logo {
     display: none;
@@ -111,6 +185,14 @@ body {
     color: #DADADA;
     margin-right: 4%;
     text-decoration: none;
+  }
+  #galeria {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #galeria div {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=base.css.map */
